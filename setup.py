@@ -7,7 +7,7 @@ from distutils import version
 from setuptools import setup, find_packages, Extension
 
 
-REQUIREMENTS = ['autoconnect', 'PIL']
+REQUIREMENTS = ['autoconnect', 'Pillow']
 EXT_MODULES = []
 
 if os.name == 'posix': 

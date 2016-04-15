@@ -7,7 +7,7 @@ import logging
 import xmlrpclib
 from cStringIO import StringIO
 
-import Image
+from PIL import Image
 from autoconnect import UdpReceiver
 from imagescanner import settings
 from imagescanner.backends import base
